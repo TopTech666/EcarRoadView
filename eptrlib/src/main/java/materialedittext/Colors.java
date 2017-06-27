@@ -1,4 +1,4 @@
-package com.rengwuxian.materialedittext;
+package materialedittext;
 
 import android.graphics.Color;
 

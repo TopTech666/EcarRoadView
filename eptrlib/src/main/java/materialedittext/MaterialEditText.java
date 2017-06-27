@@ -1,4 +1,4 @@
-package com.rengwuxian.materialedittext;
+package materialedittext;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -34,13 +34,15 @@ import android.view.View;
 
 import com.nineoldandroids.animation.ArgbEvaluator;
 import com.nineoldandroids.animation.ObjectAnimator;
-import com.rengwuxian.materialedittext.validation.METLengthChecker;
-import com.rengwuxian.materialedittext.validation.METValidator;
+import com.szchmtech.erefreshlib.R;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import materialedittext.validation.METLengthChecker;
+import materialedittext.validation.METValidator;
 
 /**
  * EditText in Material Design
@@ -310,8 +312,8 @@ public class MaterialEditText extends AppCompatEditText {
   ObjectAnimator labelAnimator;
   ObjectAnimator labelFocusAnimator;
   ObjectAnimator bottomLinesAnimator;
-  OnFocusChangeListener innerFocusChangeListener;
-  OnFocusChangeListener outerFocusChangeListener;
+  View.OnFocusChangeListener innerFocusChangeListener;
+  View.OnFocusChangeListener outerFocusChangeListener;
   private List<METValidator> validators;
   private METLengthChecker lengthChecker;
 
@@ -894,7 +896,7 @@ public class MaterialEditText extends AppCompatEditText {
       }
     });
     // observe the focus state to animate the floating label's text color appropriately
-    innerFocusChangeListener = new OnFocusChangeListener() {
+    innerFocusChangeListener = new View.OnFocusChangeListener() {
       @Override
       public void onFocusChange(View v, boolean hasFocus) {
         if (floatingLabelEnabled && highlightFloatingLabel) {
@@ -1247,7 +1249,7 @@ public class MaterialEditText extends AppCompatEditText {
   }
 
   @Override
-  public void setOnFocusChangeListener(OnFocusChangeListener listener) {
+  public void setOnFocusChangeListener(View.OnFocusChangeListener listener) {
     if (innerFocusChangeListener == null) {
       super.setOnFocusChangeListener(listener);
     } else {

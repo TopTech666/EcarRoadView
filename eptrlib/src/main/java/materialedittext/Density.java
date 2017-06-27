@@ -1,4 +1,4 @@
-package com.rengwuxian.materialedittext;
+package materialedittext;
 
 import android.content.Context;
 import android.content.res.Resources;

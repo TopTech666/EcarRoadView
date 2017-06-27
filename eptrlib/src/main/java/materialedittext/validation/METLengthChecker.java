@@ -1,4 +1,4 @@
-package com.rengwuxian.materialedittext.validation;
+package materialedittext.validation;
 
 /**
  * Created by mariotaku on 15/4/12.

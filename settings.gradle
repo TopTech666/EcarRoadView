@@ -1,1 +1,1 @@
-include ':app', ':eptrlib', ':md_et_lib'
+include ':app', ':eptrlib'

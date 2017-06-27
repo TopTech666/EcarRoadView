@@ -1,4 +1,4 @@
-package com.rengwuxian.materialedittext.validation;
+package materialedittext.validation;
 
 import android.support.annotation.NonNull;
 
