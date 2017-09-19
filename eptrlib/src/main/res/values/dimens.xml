@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <dimen name="indicator_right_padding">10dp</dimen>
-    <dimen name="indicator_corner_radius">12dp</dimen>
-    <dimen name="indicator_internal_padding">4dp</dimen>
-    <dimen name="header_footer_left_right_padding">24dp</dimen>
-    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
-    <dimen name="default_padding_top">8dp</dimen>
-    <dimen name="default_padding_bottom">8dp</dimen>
-    <dimen name="inner_padding_left">0dp</dimen>
-    <dimen name="inner_padding_right">0dp</dimen>
-    <dimen name="floating_label_text_size">12sp</dimen>
-    <dimen name="bottom_text_size">12sp</dimen>
-    <!--8dp-->
-    <dimen name="inner_components_spacing">8dp</dimen>
-    <dimen name="bottom_ellipsis_height">4dp</dimen>
-
+  <dimen name="default_padding_top">8dp</dimen>
+  <dimen name="default_padding_bottom">8dp</dimen>
+  <dimen name="inner_padding_left">0dp</dimen>
+  <dimen name="inner_padding_right">0dp</dimen>
+  <dimen name="floating_label_text_size">12sp</dimen>
+  <dimen name="bottom_text_size">12sp</dimen>
+  <!--8dp-->
+  <dimen name="inner_components_spacing">8dp</dimen>
+  <dimen name="bottom_ellipsis_height">4dp</dimen>
 </resources>
