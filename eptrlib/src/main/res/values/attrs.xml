@@ -98,7 +98,7 @@
         <attr name="matProg_barWidth" format="dimension" />
         <attr name="matProg_linearProgress" format="boolean" />
     </declare-styleable>
-    <declare-styleable name="MaterialEditText">
+    <declare-styleable name="TechMaterialEditText">
         <!-- The base color of the line and the texts. Default is black. -->
         <attr name="met_baseColor" format="color" />
         <!-- The highlight color of the line, and the floating label if the highlightFloatingLabel is true. -->

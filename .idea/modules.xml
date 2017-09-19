@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/EcarRoadView.iml" filepath="$PROJECT_DIR$/EcarRoadView.iml" />
       <module fileurl="file://$PROJECT_DIR$/TechRoadView.iml" filepath="$PROJECT_DIR$/TechRoadView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eptrlib/eptrlib.iml" filepath="$PROJECT_DIR$/eptrlib/eptrlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/eptrlib/eptrlib.iml" filepath="$PROJECT_DIR$/eptrlib/eptrlib.iml" />
     </modules>
   </component>
